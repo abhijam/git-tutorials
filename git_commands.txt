@@ -1,0 +1,37 @@
+GIT COMMANDS:
+
+1. git config --global user.name "username" 
+*to set the username of the user account
+
+2. git config --global user.email "e-mail id"
+* to set the e-mail id associated with the user account
+
+3. git config --list
+* shows all possible configuration options
+
+4. git config user.name
+* shows the username of the git account set in step 1
+
+5. git init
+* use command when in directory/folder where you want to make the
+  repository
+
+6. git add .
+* telling git to add the changes that we made to the directory
+
+7. git commit -m "add a message to the commit"
+* telling git to commit the changes we made. its like saving a
+  snapshot of the current status of the files that can be accessed
+  at some later point in time.
+
+8. git config core.autocrlf true
+* switches off the warning on git bash(windows): LF will be replaced by
+  CRLF in file; something to do with line endings in UNIX vs Windows;
+  nothing major
+
+9. gt log
+* gives the list of all commits made
+
+10. git log --author="author name"
+* gives the list of commits only made by a certain author in a group 
+  project

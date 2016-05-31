@@ -50,5 +50,7 @@ GIT COMMANDS:
 13. git add filename.format
 * if you want to add a specific file to the staging area
 
-14.
+14.git log -number --oneline
+* gives you the previous "number" (you specified) of commits made in one line each.
+  short form; cos logs are otherwise detailed
 

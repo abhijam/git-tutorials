@@ -1,0 +1,17 @@
+GIT COMMANDS:
+
+1. git config --global user.name "username" 
+*to set the username of the user account
+
+2. git config --global user.email "e-mail id"
+* to set the e-mail id associated with the user account
+
+3. git config --list
+* shows all possible configuration options
+
+4. git config user.name
+* shows the username of the git account set in step 1
+
+5. git init
+* use command when in directory/folder where you want to make the
+  repository

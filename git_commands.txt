@@ -23,6 +23,7 @@ GIT COMMANDS:
 * telling git to commit the changes we made. its like saving a
   snapshot of the current status of the files that can be accessed
   at some later point in time.
+	-m = message you want to add
 
 8. git config core.autocrlf true
 * switches off the warning on git bash(windows): LF will be replaced by
@@ -35,3 +36,19 @@ GIT COMMANDS:
 10. git log --author="author name"
 * gives the list of commits only made by a certain author in a group 
   project
+
+11. git status
+* compares your repository to the files you are working on; tells you 
+  if you have made any changes but haven't added or commited them yet.
+  git is not able to keep track of files you haven't added or commited.
+
+12. GIT WORKFLOW
+	
+	working copy > staging area > repository
+	* when file is created > when file is git added > when file is commited
+
+13. git add filename.format
+* if you want to add a specific file to the staging area
+
+14.
+

@@ -53,3 +53,10 @@ GIT COMMANDS:
 14.git log -number --oneline
 * gives you the previous "number" (you specified) of commits made in one line each.
   short form; cos logs are otherwise detailed
+
+15. git diff
+* tells you the difference between file in repository to working copy
+
+16. git diff --staged
+* tells you the difference between file in repository and staging area
+

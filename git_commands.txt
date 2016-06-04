@@ -69,4 +69,12 @@ GIT COMMANDS:
   working copy to repository. use it with caution. only when you are sure
   of all the changes you want to commit.
 
-19. 
+19. git checkout -- filename.format
+* takes something from the repository and make it the working copy. 
+  in case you mess up the working copy. undo changes you make in the
+  working copy and get the good files from the repository.
+
+20. git reset HEAD filename.format
+* to take a file from the staging area (after having run the command git
+  add .), back to the working copy. Basically, unstaging the file. 
+

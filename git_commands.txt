@@ -60,3 +60,13 @@ GIT COMMANDS:
 16. git diff --staged
 * tells you the difference between file in repository and staging area
 
+17. git mv filename.format newfilename.format
+* way of renaming file
+
+18. git commit -am "message"
+* way to bypass the staging area. lets you commit the changes directly.
+  so from working copy to repository in one go. grabs everything from 
+  working copy to repository. use it with caution. only when you are sure
+  of all the changes you want to commit.
+
+19. 

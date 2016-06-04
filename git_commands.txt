@@ -78,3 +78,4 @@ GIT COMMANDS:
 * to take a file from the staging area (after having run the command git
   add .), back to the working copy. Basically, unstaging the file. 
 
+21. sfslkfsdlfhdfkflf

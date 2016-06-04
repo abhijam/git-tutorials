@@ -78,3 +78,8 @@ GIT COMMANDS:
 * to take a file from the staging area (after having run the command git
   add .), back to the working copy. Basically, unstaging the file. 
 
+21. git checkout commit-id -- filename.format
+* use this to retrieve files from previous commits from the repository,
+  in case the mistakes have been commited and you wish to revert back
+ to an older version of the file.follow this by (git commit -am) 
+  to confirm new copy to repository.

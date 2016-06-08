@@ -83,3 +83,13 @@ GIT COMMANDS:
   in case the mistakes have been commited and you wish to revert back
  to an older version of the file.follow this by (git commit -am) 
   to confirm new copy to repository.
+
+22. git remote add "some-short-name-for-git-repository-w/o-quotes" link-of-repository
+* to assign a short-name for calling the link to the repository. useful
+  instead of typing in the link everytime. 
+
+23. git remote
+*  to check the short name that was asssigned to the link.
+
+24. git push -u short-name-of-repository
+* to push files from computer to the online repository on github.
